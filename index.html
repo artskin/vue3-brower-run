@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <meta name="renderer" content="webkit">
+  <title>Vue3.0 学习</title>
+  <meta name="description" content="Vue3.0 学习,无需安装node, 无需webpack打包，无需运行vite，借助es6对module的支持，双击打开即可在浏览器端运行"/>
+  <meta name="keywords" content="Vue3,webpack,vite,es6"/>
+  <meta name="author" content="Web Layout:amu"/>
+  <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no"/>
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet/less" href="style/main.less" />
+</head>
+<body>
+  <div id="app">
+    <router-view></router-view>
+    <p class="footer">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/login">Login</router-link> |
+      <router-link to="/reg">Reg</router-link>
+    </p>
+  </div>
+
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/less.js/4.1.1/less.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/3.0.5/vue.global.prod.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/vue-router/4.0.4/vue-router.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue3-sfc-loader@0.2.22/dist/vue3-sfc-loader.js"></script> -->
+
+<script src="js/lib/less@4.1.1.min.js"></script>
+<script src="js/lib/axios@0.21.1.min.js"></script>
+<script src="js/lib/vue@3.0.5.global.js"></script>
+<script src="js/lib/vue-router@4.0.4.global.js"></script>
+<script src="js/lib/vue3-sfc-loader@0.2.22.js"></script>
+
+<script type="module"  src="js/index.js"></script>
+</body>
+</html>
